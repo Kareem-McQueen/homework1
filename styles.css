@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@100;200&display=swap');
+
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.header {
+    background-color: rgb(26, 22, 22, 0.8);
+    text-align: center;
+    font-size: 5em;
+    color: black;
+    opacity: 70%;
+    letter-spacing: .2em;
+    /* padding: 10px; */
+}
+
+.header h6{
+    line-height: 0px;
+    padding-top: 0;
+    color: black;
+    letter-spacing: .1em;
+
+    
+}
+
+div.gallery {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    list-style-type: none;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  div.gallery li {
+    list-style-type: none;
+  }
+
+  
+  
